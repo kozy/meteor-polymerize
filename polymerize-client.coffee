@@ -3,7 +3,7 @@ Meteor.startup ->
   # Write Local DOM using ShadowDOM instead of ShadyDOM
   ##
   @Polymer = @Polymer or {}
-  @Polymer.dom = @Polymer.dom = or 'shadow'
+  @Polymer.dom = @Polymer.dom or 'shadow'
 
   ##
   # Defers Blaze.Render until after WebComponentsReady
